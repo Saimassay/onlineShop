@@ -1,0 +1,42 @@
+body{
+  font-family: 'Cochin';
+}
+.header { 
+  position: fixed;
+  width: 100%;
+  top: 0; 
+  left: 0; 
+  height: 85px; 
+  /*background: black;*/
+  z-index: 6; 
+  margin-bottom: 30px;
+
+
+}
+
+.navbar{
+	background-color: white;
+	height: 85px;
+	text-align: center;
+	border-color: white;
+
+}
+
+.menu{
+	color: black;
+}
+
+#myNavbar{
+	border-color: white;
+	background-color: white;
+	text-align: center;
+}
+.gridpane{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  padding: 50px;
+  margin-top: 50px;
+}
+.size{
+	list-style: none;
+}
